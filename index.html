@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>MOCTECH.COM</title>
+   </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bxl-c-plus-plus'></i>
+      <span class="logo_name">MOCTECH</span>
+    </div>
+      <ul class="nav-links">
+        <li class="A1">
+          <a href="#" class="active">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name ">Dashboard</span>
+          </a>
+        </li>
+        <li class="B1">
+          <a href="#">
+            <i class='bx bx-box ' ></i>
+            <span class="links_name">My Profile</span>
+          </a>
+        </li>
+        <li class="C1">
+          <a href="#">
+            <i class='bx bx-list-ul' ></i>
+            <span class="links_name ">My pay</span>
+          </a>
+        </li>
+        <li class="D1">
+          <a href="#">
+            <i class='bx bx-pie-chart-alt-2' ></i>
+            <span class="links_name ">My Documents</span>
+          </a>
+        </li>
+        <li class="E1">
+          <a href="#">
+            <i class='bx bx-coin-stack' ></i>
+            <span class="links_name ">My Returement</span>
+          </a>
+        </li>
+        <li class="F1">
+          <a href="#">
+            <i class='bx bx-user' ></i>
+            <span class="links_name ">Team</span>
+          </a>
+        </li>
+        <li class="G1">
+          <a href="#">
+            <i class='bx bx-message' ></i>
+            <span class="links_name ">Messages</span>
+          </a>
+        </li>
+        <li class="H1">
+          <a href="#">
+            <i class='bx bx-heart' ></i>
+            <span class="links_name ">Favrorites</span>
+          </a>
+        </li>
+        <li class="I1">
+          <a href="#">
+            <i class='bx bx-cog' ></i>
+            <span class="links_name ">Setting</span>
+          </a>
+        </li>
+        <li class="log_out">
+          <a href="#">
+            <i class='bx bx-log-out'></i>
+            <span class="links_name">Log out</span>
+          </a>
+        </li>
+      </ul>
+  </div>
+  <section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <i class='bx bx-menu sidebarBtn'></i>
+        <!-- <span class="dashboard">Dashboard</span> -->
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="Search...">
+        <i class='bx bx-search' ></i>
+      </div>
+      <div class="profile-details  ppp5">
+        <img src="menu.jpeg" alt="">
+        <span class="admin_name">Rohit</span>
+        <i class='bx bx-chevron-down' ></i>
+      </div>
+
+    </nav>
+    <div class="menubar112">
+      <h1 class="pp1">H1</h1>
+      <h1  class="pp1">H1</h1>
+      <h1  class="pp1">H1</h1>
+      <h1  class="pp1">H1</h1>
+      <h1  class="pp1">H1</h1>
+      <h1  class="pp1">H1</h1>
+      <h1  class="pp1">H1</h1>
+   </div>
+    
+
+    <div class="home-content ">
+       <!-- menu -->
+    
+        <div class="overview-boxes">
+            <!--  -->
+          <div class="box17 A2" >
+            <div class="right-side">
+              <div class="box-topic17"> <h1>🙋‍♂️Dashboard</h1></div>
+            </div>
+          </div>
+          <div class="box1 B2" >
+            <div class="right-side1">
+              <div class="box-topic1"><h1>🙍🏼‍♂️My Profile</h1></div>
+              <div></div>
+            </div>
+          </div>
+          <div class="box2 C2" >
+            <div class="right-side2">
+              <div class="box-topic2 "><h1>💸My pay</h1></div>
+            </div>
+          </div>
+          <div class="box3 D2" >
+            <div class="right-side3">
+              <div class="box-topic3 "><h1>💾My Documaents</h1></div>
+            </div>
+          </div>
+          <div class="box4 E2" >
+            <div class="right-side4">
+              <div class="box-topic4 "><h1>🍩My Returement</h1></div>
+            </div>
+          </div>
+          <div class="box5 F2" >
+            <div class="right-side5">
+              <div class="box-topic5 "><h1>👨🏿‍🤝‍👨🏾Team</h1></div>
+            </div>
+          </div>
+          <div class="box6 G2" >
+            <div class="right-side6">
+              <div class="box-topic6 "><h1>🐱‍💻Messages</h1></div>
+            </div>
+          </div>
+          <div class="box7 H2" >
+            <div class="right-side7">
+              <div class="box-topic7 "><h1>✔Favrorites</h1></div>
+            </div>
+          </div>
+          <div class="box7 I2" >
+            <div class="right-side8">
+              <div class="box-topic8 "><h1>🛑Setting</h1></div>
+            </div>
+          </div>
+          
+          <!--  -->
+        </div>
+    </div>
+   
+  </section>
+
+  <script>
+   let sidebar = document.querySelector(".sidebar");
+let sidebarBtn = document.querySelector(".sidebarBtn");
+sidebarBtn.onclick = function() {
+  sidebar.classList.toggle("active");
+  if(sidebar.classList.contains("active")){
+  sidebarBtn.classList.replace("bx-menu" ,"bx-menu-alt-right");
+}else
+  sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+}
+ </script>
+ <script>
+const A1 = document.querySelector(".A1")
+const A2 = document.querySelector(".A2")
+
+A1.addEventListener("click",function(){
+    
+    A2.style.display= "initial";
+    B2.style.display= "none";
+    C2.style.display= "none";
+    D2.style.display= "none";
+    E2.style.display= "none";
+    F2.style.display= "none";
+    G2.style.display= "none";
+    H2.style.display= "none";
+    I2.style.display= "none";
+
+})
+const B1 = document.querySelector(".B1")
+const B2 = document.querySelector(".B2")
+B1.addEventListener("click",function(){
+    A2.style.display= "none";
+    B2.style.display= "initial";
+    C2.style.display= "none";
+    D2.style.display= "none";
+    E2.style.display= "none";
+    F2.style.display= "none";
+    G2.style.display= "none";
+    H2.style.display= "none";
+    I2.style.display= "none";
+
+})
+const C1 = document.querySelector(".C1")
+const C2 = document.querySelector(".C2")
+C1.addEventListener("click",function(){
+    A2.style.display= "none";
+    B2.style.display= "none";
+    C2.style.display= "initial";
+    D2.style.display= "none";
+    E2.style.display= "none";
+    F2.style.display= "none";
+    G2.style.display= "none";
+    H2.style.display= "none";
+    I2.style.display= "none";
+
+})
+const D1 = document.querySelector(".D1")
+const D2 = document.querySelector(".D2")
+D1.addEventListener("click",function(){
+    A2.style.display= "none";
+    B2.style.display= "none";
+    C2.style.display= "none";
+    D2.style.display= "initial";
+    E2.style.display= "none";
+    F2.style.display= "none";
+    G2.style.display= "none";
+    H2.style.display= "none";
+    I2.style.display= "none";
+
+})
+const E1 = document.querySelector(".E1")
+const E2 = document.querySelector(".E2")
+E1.addEventListener("click",function(){
+    A2.style.display= "none";
+    B2.style.display= "none";
+    C2.style.display= "none";
+    E2.style.display= "initial";
+    D2.style.display= "none";
+    F2.style.display= "none";
+    G2.style.display= "none";
+    H2.style.display= "none";
+    I2.style.display= "none";
+
+})
+const F1 = document.querySelector(".F1")
+const F2 = document.querySelector(".F2")
+F1.addEventListener("click",function(){
+    A2.style.display= "none";
+    B2.style.display= "none";
+    C2.style.display= "none";
+    D2.style.display= "none";
+    E2.style.display= "none";
+    F2.style.display= "initial";
+    G2.style.display= "none";
+    H2.style.display= "none";
+    I2.style.display= "none";
+
+})
+const G1 = document.querySelector(".G1")
+const G2 = document.querySelector(".G2")
+G1.addEventListener("click",function(){
+    A2.style.display= "none";
+    B2.style.display= "none";
+    C2.style.display= "none";
+    D2.style.display= "none";
+    E2.style.display= "none";
+    F2.style.display= "none";
+    G2.style.display= "initial";
+    H2.style.display= "none";
+    I2.style.display= "none";
+
+})
+const H1 = document.querySelector(".H1")
+const H2 = document.querySelector(".H2")
+H1.addEventListener("click",function(){
+    A2.style.display= "none";
+    B2.style.display= "none";
+    C2.style.display= "none";
+    D2.style.display= "none";
+    E2.style.display= "none";
+    F2.style.display= "none";
+    G2.style.display= "none";
+    H2.style.display= "initial";
+    I2.style.display= "none";
+
+})
+const I1 = document.querySelector(".I1")
+const I2 = document.querySelector(".I2")
+I1.addEventListener("click",function(){
+    A2.style.display= "none";
+    B2.style.display= "none";
+    C2.style.display= "none";
+    D2.style.display= "none";
+    E2.style.display= "none";
+    F2.style.display= "none";
+    G2.style.display= "none";
+    H2.style.display= "none";
+    I2.style.display= "initial";
+
+})
+
+const ppp5 = document.querySelector(".ppp5")
+const menubar112 = document.querySelector(".menubar112")
+ppp5.addEventListener("click",function(){
+  menubar112.style.transform="translateX(20%)"; 
+
+})
+ </script>
+
+ 
+
+</body>
+</html>
+
